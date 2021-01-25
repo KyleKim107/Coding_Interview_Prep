@@ -47,7 +47,7 @@ while True:
         nx = x - dx[direction]
         ny = y - dy[direction]
         # 뒤로 갈 수 있다면 이동하기
-        if array[nx][ny] == 0:
+        if array[nx][ny] == 0:  ### 같은 방향으로 돌아와두 다시한번 체크 해야해!! ###
             x = nx
             y = ny
         # 뒤가 바다로 막혀있는 경우
