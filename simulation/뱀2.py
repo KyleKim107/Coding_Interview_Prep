@@ -8,7 +8,7 @@ for _ in range(apple):
     i,j = map(int, sys.stdin.readline().split())
     a[i-1][j-1] = 1
 
-def nextDir(p,j,di):
+def nextDir(j,di):
     
     if j == 'D':
         if di==4:
@@ -23,37 +23,63 @@ def nextDir(p,j,di):
     return di
 
 
-com = int(sys.stdin.readline())
+command = int(input())
+comL = []
+for comm in range(command):
+    tic , way = sys.stdin.readline().split()
+    comL.append((int(tic),way))
+# print( comL)
+# print( len(comL))
+timer = 0
 q = deque()
-di = -1
-q.append((0,0))
-timer =0
+q.append((0,0)) 
+a[0][0] =2
+index = 0
+direction = 0
 flag = False
-for p in range(com):
-    if flag == True:
+tic = comL[0][0]
+way = comL[0][1]
+while True:
+    
+    timer += 1
+    x,y = q[-1]
+    nx,ny = x + dir[direction][0] , y + dir[direction][1]
+    if not(0<= nx < N and 0 <= ny < N) or a[nx][ny] == 2 or (nx,ny) in q:
         break
-    i,j = sys.stdin.readline().split()
-    print((i,j))
-    di = nextDir(p,j,di)
-    for _ in range(int(i)):
-        timer+= 1
-        x,y = q[-1]
-        direc= dir[di]
-        print(direc)
-        nx,ny = x+direc[0] , y+direc[1]
-        
-        if not(0 <=nx < N and 0 <= ny < N) or (nx,ny) in q:
-            flag = True
-            break
+    else:
         if a[nx][ny] == 1:
             q.append((nx,ny))
-            a[nx][ny] = 0
-        elif a[nx][ny] == 1:
+            a[nx][ny] =2
+            #print(("append", (nx,ny)))
+        else:
             q.append((nx,ny))
-            t,b= q.popleft()
-            print((t,b))
+            a[nx][ny] =2
+            i,j = q.popleft()
+            a[i][j] = 0
+    # for i  in range(len(a)):
+    #     print(a[i], end = '\n')
+    # print( ("time", timer))
+    if timer == tic :
+        direction = nextDir(way,direction)
+        #print(index)
+        if index < command-1:
+            index += 1
+            tic, way = comL[index]
+
 
 print(timer)
+
+
+
+
+
+
+
+
+
+    
+
+
 
     
 
