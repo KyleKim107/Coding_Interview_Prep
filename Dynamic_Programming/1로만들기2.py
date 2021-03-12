@@ -1,12 +1,15 @@
-import sys
-d = [0] * 1000001
-n = int(sys.stdin.readline() )
-for i in range(2, n+1):
-    d[i] = d[i-1] +1
-    if i % 2 == 0:
-        d[i] = min(d[i] , d[i //2 ] + 1)
-    if i % 3 == 0:
-        d[i] = min(d[i] , d[i //3 ] + 1)
-print(d[n])
-
+import sys 
+num = [0]*30001
+N = int(input())
+num[1] = 0
+for i in range():
+    if N % 5 == 0:
+        N /= 5
+    elif N % 3 == 0:
+        N /= 3
+    elif N % 2 == 0:
+        N /= 2
+    else:
+        
     
+print(num[N])

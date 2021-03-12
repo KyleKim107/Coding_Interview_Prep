@@ -1,3 +1,4 @@
+
 import sys
 dir = [(-1,0),(0,1),(1,0),(0,-1)] # 북 동 남 서
 n,m = map(int,sys.stdin.readline().split())
