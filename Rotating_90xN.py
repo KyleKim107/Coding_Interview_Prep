@@ -13,6 +13,17 @@ def rotate_90(m):
     # 회전 전의 열 번호와 회전 후의 행 번호가 일치한다. 
     # 그리고 회전 후의 열은 N-1 에서 회전 전의 행을 뺀 값과 같다.
 
+def rotate(arr): #정사각형 외의 배열을 돌릴 수 있다 18808번 문제 푸는데 쓰임
+    n,m = len(arr), len(arr[0])    # n = 2 m = 4
+    dummy = list(list([0]*n) for _ in range(m))
+    for i in range(m):
+        for j in range(n):
+            dummy[i][ n - 1 - j] = arr[j][i]
+
+    return dummy
+
+
+
 def rotate_180(m):
     N = len(m)
     ret = [[0] * N for _ in range(N)]

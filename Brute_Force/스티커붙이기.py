@@ -14,7 +14,6 @@ def rotate(arr):
     for i in range(m):
         for j in range(n):
             dummy[i][ n - 1 - j] = arr[j][i]
-
     return dummy
 
 def check(board , line , x ,y):
@@ -35,7 +34,6 @@ def attach(line , x,y ):
                 board[ x + i ][ y + j ] = line[i][j]
 
 for line in stickers:
-    
     for _ in range(4):
         flag = True
         for i in range(N):
@@ -60,10 +58,3 @@ for line in board:
 print(cnt)
 
 
-    # print( True , (i,j))
-                    # for a in board:
-                    #     print(a)
-                    # print('______-______')
-                    # attach(line , i,j)
-                    # for a in board:
-                    #     print(a)
