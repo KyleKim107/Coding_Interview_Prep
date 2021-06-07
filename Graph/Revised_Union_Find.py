@@ -23,6 +23,7 @@ parent = [0] * (v + 1) # 부모 테이블 초기화하기
 # 부모 테이블상에서, 부모를 자기 자신으로 초기화
 for i in range(1, v + 1):
     parent[i] = i
+print(parent)
 
 # Union 연산을 각각 수행
 for i in range(e):
