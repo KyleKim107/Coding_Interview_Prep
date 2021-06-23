@@ -1,28 +1,88 @@
-import sys
-T = int(sys.stdin.readline())
-for _ in range(T):
-    N = int(sys.stdin.readline())
-    par = [0]*(N+1)
-    for _ in range(N -1):
-        A,B = map(int, sys.stdin.readline().split())
-        par[B] = A
-    A,B = map(int, sys.stdin.readline().split())
-    Apar, Bpar = [A],[B]
+from sys import stdin
+read = stdin.readline
+N = int(read())
+for _ in range(N):
+    M = int(read())
+    parent = [0]*(M+1)
+    for i in range(M-1):
+        a,b = map(int, read().split())
+        parent[b] = a
+    findX, findY = map(int, read().split())
+    x,y = [findX],[findY]
+    while parent[findX]:
+        x.append(parent[findX])
+        findX = parent[findX]
+    while parent[findY]:
+        y.append(parent[findY])
+        findY = parent[findY]
+    lenX = len(x)-1
+    lenY = len(y)-1
+    while lenX >= 0 and lenY >= 0 and x[lenX] == y[lenY]:
+        lenX -= 1
+        lenY -= 1
+    print(x[lenX+1])
 
-    while par[A]:
-        Apar.append(par[A])
-        A =par[A]
-
-    while par[B]:
-        Bpar.append(par[B])
-        B =par[B]
+        
     
-    lenA = len(Apar) - 1
-    lenB = len(Bpar) -1
-    while lenA >= 0 and lenB >= 0 and Apar[lenA] == Bpar[lenB]:
-        lenA -= 1
-        lenB -= 1
-    print(Apar[lenA + 1 ])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import sys
+# T = int(sys.stdin.readline())
+# for _ in range(T):
+#     N = int(sys.stdin.readline())
+#     par = [0]*(N+1)
+#     for _ in range(N -1):
+#         A,B = map(int, sys.stdin.readline().split())
+#         par[B] = A
+#     A,B = map(int, sys.stdin.readline().split())
+#     Apar, Bpar = [A],[B]
+
+#     while par[A]:
+#         Apar.append(par[A])
+#         A =par[A]
+
+#     while par[B]:
+#         Bpar.append(par[B])
+#         B =par[B]
+    
+#     lenA = len(Apar) - 1
+#     lenB = len(Bpar) -1
+#     while lenA >= 0 and lenB >= 0 and Apar[lenA] == Bpar[lenB]:
+#         lenA -= 1
+#         lenB -= 1
+#     print(Apar[lenA + 1 ])
 
 
 
