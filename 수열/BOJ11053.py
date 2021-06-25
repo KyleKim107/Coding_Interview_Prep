@@ -3,8 +3,8 @@ seq = list(map(int, input().split()))
 dp = [0] * 1001
 
 for s in seq:
-    print(dp[:s])
     dp[s] = max(dp[:s]) + 1
+    print(dp[:s])
 
 print(max(dp))
 
