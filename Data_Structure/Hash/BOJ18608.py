@@ -1,0 +1,6 @@
+input()
+a = list(map(int, input().split()))
+input()
+b = list(map(int, input().split()))
+print(a)
+print(b)
