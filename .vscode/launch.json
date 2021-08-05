@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SW1218Ver2",
+            "request": "launch",
+            "mainClass": "Stack.SW1218Ver2",
+            "projectName": "Coding_Interview_Prep_a318b9b0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW1218",
+            "request": "launch",
+            "mainClass": "Stack.SW1218",
+            "projectName": "Coding_Interview_Prep_a318b9b0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "Permutation_And_Comb.Permutation",
+            "projectName": "Coding_Interview_Prep_a318b9b0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Combination",
+            "request": "launch",
+            "mainClass": "Permutation_And_Comb.Combination",
+            "projectName": "Coding_Interview_Prep_a318b9b0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "Permutation.Permutation",
+            "projectName": "Coding_Interview_Prep_a318b9b0"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
