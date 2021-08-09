@@ -1,11 +1,9 @@
 package Data_Structure.Queue;
-
 import java.util.*;
 import java.io.*;
 
 public class BOJ18258 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Deque<Integer> list = new LinkedList<Integer>();
 		int n = Integer.parseInt(br.readLine());
