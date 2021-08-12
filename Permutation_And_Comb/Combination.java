@@ -13,7 +13,7 @@ public class Combination {
         }
 
     }
-    
+
         // 재귀 사용
         // 사용 예시 : comb(arr, visited, 0, n, r)
         static void comb(int[] arr, boolean[] visited, int depth, int n, int r) {
@@ -24,14 +24,14 @@ public class Combination {
             if (depth == n) {
                 return;
             }
-    
+
             visited[depth] = true; // visit에 표시해서 선택한다
             comb(arr, visited, depth + 1, n, r - 1); // depth가 하나씩 더해지면서 인덱스를 높인다
                                                 // r로 선택하고 선택 안하고를 결정
             visited[depth] = false;
             comb(arr, visited, depth + 1, n, r);
         }
-    
+
     // 백트래킹 사용
     // 사용 예시 : combination(arr, visited, 0, n, r)
     static void combination(int[] arr, boolean[] visited, int start, int n, int r) {
