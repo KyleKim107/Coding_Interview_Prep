@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BOJ3197ver2",
+            "request": "launch",
+            "mainClass": "simulation.BOJ3197ver2",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ3197Mine",
+            "request": "launch",
+            "mainClass": "simulation.BOJ3197Mine",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ17135",
+            "request": "launch",
+            "mainClass": "simulation.BOJ17135",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ15686ver3",
+            "request": "launch",
+            "mainClass": "Brute_Force.BOJ15686ver3",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ15686",
+            "request": "launch",
+            "mainClass": "Brute_Force.BOJ15686",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ3197",
+            "request": "launch",
+            "mainClass": "simulation.BOJ3197",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
             "name": "Launch BOJ3040",
             "request": "launch",
             "mainClass": "Permutation_And_Comb.BOJ3040",
