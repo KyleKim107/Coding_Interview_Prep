@@ -3,6 +3,7 @@ import java.util.*;
 public class BOJ1987ver2 {
     static int R,C,ans,dir[][]={{1,0},{-1,0},{0,1},{0,-1}};
 	static char[][] map;
+
 	static void dfs(int r,int c,int bit,int cnt){
         int a=1<<map[r][c]-'A';
 		if((bit&a)>0)return;

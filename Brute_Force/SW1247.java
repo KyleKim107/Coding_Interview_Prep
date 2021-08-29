@@ -13,6 +13,8 @@ public class SW1247 {
     }
 
     public static void func(int depth, int[] visit, int curr, int x, int y) {
+        if(curr > minV){return;}
+
         if (depth == arr.length) {
             minV = Math.min( minV , curr + manhattan(x, y, home[0], home[1]) );
             return;
