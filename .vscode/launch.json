@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SW0802",
+            "request": "launch",
+            "mainClass": "simulation.SW0802",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW1954",
+            "request": "launch",
+            "mainClass": "simulation.SW1954",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW6485",
+            "request": "launch",
+            "mainClass": "simulation.SW6485",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW7964",
+            "request": "launch",
+            "mainClass": "simulation.SW7964",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW5356",
+            "request": "launch",
+            "mainClass": "simulation.SW5356",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
             "name": "Launch SW7087",
             "request": "launch",
             "mainClass": "Greedy.SW7087",
