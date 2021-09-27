@@ -6,6 +6,223 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BOJ1305",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.KMP.BOJ1305",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ2401",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.KMP.BOJ2401",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1644",
+            "request": "launch",
+            "mainClass": "Greedy.TwoPointer.BOJ1644",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1806",
+            "request": "launch",
+            "mainClass": "Greedy.TwoPointer.BOJ1806",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ2003",
+            "request": "launch",
+            "mainClass": "Greedy.TwoPointer.BOJ2003",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1540",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.Knapsack.BOJ1540",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch c",
+            "request": "launch",
+            "mainClass": "Contest.Leetcode.SEP26.c",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch a",
+            "request": "launch",
+            "mainClass": "Contest.Leetcode.SEP26.a",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ12865",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.Knapsack.BOJ12865",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ17144ver2",
+            "request": "launch",
+            "mainClass": "Graph.BFS.BOJ17144ver2",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ17144",
+            "request": "launch",
+            "mainClass": "Graph.BFS.BOJ17144",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ7576",
+            "request": "launch",
+            "mainClass": "Graph.BFS.BOJ7576",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch JA1681",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.Floyd.JA1681",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1786",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.KMP.BOJ1786",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch KMP",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.KMP.KMP",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW_1767",
+            "request": "launch",
+            "mainClass": "simulation.SW_1767",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW_Processor",
+            "request": "launch",
+            "mainClass": "simulation.SW_Processor",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ14502",
+            "request": "launch",
+            "mainClass": "simulation.BOJ14502",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ9205",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.Floyd.BOJ9205",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch Human_network",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.Floyd.Human_network",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ2636",
+            "request": "launch",
+            "mainClass": "simulation.BOJ2636",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW3307",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.LIS.SW3307",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW3307",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.SW3307",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1976ver2",
+            "request": "launch",
+            "mainClass": "Graph.union_find.BOJ1976ver2",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW3124",
+            "request": "launch",
+            "mainClass": "Graph.MST.SW3124",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1976",
+            "request": "launch",
+            "mainClass": "Graph.union_find.BOJ1976",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1149",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.BOJ1149",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1463",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.BOJ1463",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SSAFY_DP1",
+            "request": "launch",
+            "mainClass": "HEAP.PriorityQueue.SSAFY_DP1",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ17612ver2",
+            "request": "launch",
+            "mainClass": "HEAP.PriorityQueue.BOJ17612ver2",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ17612",
+            "request": "launch",
+            "mainClass": "HEAP.PriorityQueue.BOJ17612",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
             "name": "Launch SW0802",
             "request": "launch",
             "mainClass": "simulation.SW0802",
