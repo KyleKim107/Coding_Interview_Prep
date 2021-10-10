@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BOJ17471",
+            "request": "launch",
+            "mainClass": "Graph.BOJ17471",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch JO2577",
+            "request": "launch",
+            "mainClass": "Graph.JO2577",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ17143",
+            "request": "launch",
+            "mainClass": "simulation.BOJ17143",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW0930",
+            "request": "launch",
+            "mainClass": "simulation.SW0930",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW1953",
+            "request": "launch",
+            "mainClass": "Graph.BFS.SW1953",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW1249",
+            "request": "launch",
+            "mainClass": "Graph.Dijkstra.SW1249",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch SW5643",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.Floyd.SW5643",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1194ver2",
+            "request": "launch",
+            "mainClass": "Graph.BOJ1194ver2",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ4485ver2",
+            "request": "launch",
+            "mainClass": "Graph.Dijkstra.BOJ4485ver2",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ1194",
+            "request": "launch",
+            "mainClass": "Graph.BOJ1194",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
+            "name": "Launch BOJ4485",
+            "request": "launch",
+            "mainClass": "Graph.Dijkstra.BOJ4485",
+            "projectName": "Coding_Interview_Prep_2f34a9ee"
+        },
+        {
+            "type": "java",
             "name": "Launch BOJ1305",
             "request": "launch",
             "mainClass": "Dynamic_Programming.KMP.BOJ1305",
